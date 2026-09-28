@@ -1,0 +1,18 @@
+image:
+  repository: maneish/maneish_repoexplorer_frontend_test
+  tag: latest
+  pullPolicy: IfNotPresent
+
+service:
+  type: ClusterIP
+  port: 3000
+  targetPort: 3000
+
+gateway:
+  name: repo-explorer-gateway
+  listenerPort: 80
+
+configMap:
+  name: my_repo_explorer_config_map
+  data:
+    VITE_BASE_URL: "api/github"

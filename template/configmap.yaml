@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: {{ .Values.configMap.name }}
+  namespace: repo-explorer-namespace
+data:
+  VITE_BASE_URL: {{ .Values.configMap.data.VITE_BASE_URL | quote }}
