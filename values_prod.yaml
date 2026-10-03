@@ -1,6 +1,6 @@
 image:
   repository: maneish/maneish_repoexplorer_frontend
-  tag: latest
+  tag: 4e52651357af04d6f4adc46f8d88b15ef9b18f83
   pullPolicy: IfNotPresent
 
 service:
