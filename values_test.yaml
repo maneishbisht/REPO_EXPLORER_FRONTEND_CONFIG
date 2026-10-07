@@ -1,6 +1,6 @@
 image:
   repository: maneish/maneish_repoexplorer_frontend_test
-  tag: 231c42514e9eaa28670a7723907d6f3e940b407f
+  tag: 23ea3617839c44bbb6d8da7eb36992c1726a325c
   pullPolicy: IfNotPresent
 
 service:
