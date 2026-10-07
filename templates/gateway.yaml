@@ -4,7 +4,7 @@ metadata:
   name: {{ .Values.gateway.name }}
   namespace: repo-explorer-namespace
 spec:
-  gatewayClassName: istio
+  gatewayClassName: aws
   listeners:
     - name: http
       protocol: HTTP
